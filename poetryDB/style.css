@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /*width: 100vw;*/
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.poem {
+  flex: 1;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 75vw;
+  font-family: monospace;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+.img {
+  flex: 1;
+  max-height: 50vh;
+  max-width: 75vw;
+}
